@@ -1,0 +1,19 @@
+
+===================
+--- CIMSS 9.108 ---
+===================
+
+This is an update to CIMSS 9.
+
+It contains bug fixes and styling updates to the previous release – CIMSS 9.103
+
+
+Update Instructions
+
+1.	Update the database with the accompanying SQL scripts: ‘create_functions_2005.sql’ and ‘create_ssnap_extract_view.sql’
+2.	Copy ‘stroke-config.properties’ to the class-path or Tomcat account home directory. NOTE: :You may also copy the stroke-config.properties to the ‘classes’ directory of the Stroke application *after* deployment in Tomcat
+3.	NOTE: CIMSS will not start properlyif stroke-config.properties cannot be found
+4.	Ensure the data-source setting in ‘stroke-config.properties’ are correct for your site
+5.	Copy “stroke.war” to the Tomcat web-apps folder
+
+

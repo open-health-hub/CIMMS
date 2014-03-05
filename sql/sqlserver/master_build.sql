@@ -1,0 +1,12 @@
+:r ./create/master_create_build.sql
+:r ./constraints/master_build_constraints.sql
+:r ./data/master_build_data.sql
+:r ./security/master_build_security.sql
+:r ./upgrade-0.1.01.sql
+:r ./upgrade-0.1.02.sql
+:r ./upgrade-0.3.sql
+:r ./upgrade-0.4.sql
+:r ./upgrade-0.5.sql
+:r ./upgrade-0.6.sql
+:r ./upgrade-0.7.sql
+:r ./upgrade-0.8.sql

@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[care_activity] ADD CONSTRAINT UNQ__care_activity__hospital_stay_id  UNIQUE ([hospital_stay_id ]) 

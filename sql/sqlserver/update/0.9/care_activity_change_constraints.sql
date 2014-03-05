@@ -1,0 +1,1 @@
+USE [stroke];alter table [dbo].[care_activity]alter column start_date datetime NULL;update [dbo].[care_activity]set start_date = NULL 

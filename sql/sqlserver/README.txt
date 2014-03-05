@@ -1,0 +1,1 @@
+sqlcmd -d <<dbName>> -i master_build.sql

@@ -1,0 +1,14 @@
+
+ALTER TABLE [dbo].[evaluation]  WITH CHECK ADD  CONSTRAINT [FK332C073C8F998D2F] FOREIGN KEY([evaluator_id])
+REFERENCES [dbo].[staff_role] ([id])
+GO
+
+ALTER TABLE [dbo].[evaluation] CHECK CONSTRAINT [FK332C073C8F998D2F]
+GO
+
+ALTER TABLE [dbo].[evaluation]  WITH CHECK ADD  CONSTRAINT [FK332C073CC11D709F] FOREIGN KEY([care_activity_id])
+REFERENCES [dbo].[care_activity] ([id])
+GO
+
+ALTER TABLE [dbo].[evaluation] CHECK CONSTRAINT [FK332C073CC11D709F]
+GO

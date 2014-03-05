@@ -1,0 +1,10 @@
+:r ./update/0.1.02/occupational_therapy_management_allow_nulls.sql
+:r ./update/0.1.02/physiotherapy_management_allow_nulls.sql
+:r ./update/0.1.02/speech_and_language_therapy_management_allow_nulls.sql
+:r ./update/0.1.02/therapy_management_allow_nulls.sql
+:r ./update/0.1.02/nutrition_management_add_must_screen.sql
+:r ./update/0.1.02/nutrition_management_add_inadequate_fields.sql
+:r ./update/0.1.02/nutrition_management_add_dietitian_referral.sql
+:r ./update/0.1.02/create_inadequate_nutrition_reason_type.sql
+:r ./update/0.1.02/data_inadequate_nutrition_reason_type.sql
+:r ./update/0.1.02/must_score_utility.sql

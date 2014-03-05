@@ -1,0 +1,51 @@
+:r ./create/patient_proxy.sql
+:r ./create/care_activity.sql
+:r ./create/clinical_assessment.sql
+:r ./create/glasgow_coma_score.sql
+:r ./create/no_swallow_screen_performed_reason_type.sql
+:r ./create/clinical_classification_type.sql
+:r ./create/continence_management.sql
+:r ./create/catheter_history.sql
+:r ./create/catheter_reason_type.sql
+:r ./create/no_continence_plan_reason_type.sql
+:r ./create/imaging.sql
+:r ./create/scan.sql
+:r ./create/image_type.sql
+:r ./create/diagnosis_type.sql
+:r ./create/no_scan_reason_type.sql
+:r ./create/medical_history.sql
+:r ./create/medication.sql
+:r ./create/medication_type.sql
+:r ./create/risk_factor.sql
+:r ./create/risk_factor_type.sql
+:r ./create/comorbidity.sql
+:r ./create/comorbidity_type.sql
+:r ./create/nutrition_management.sql
+:r ./create/fluid_management.sql
+:r ./create/therapy_management.sql 
+:r ./create/occupational_therapy_management.sql
+:r ./create/occupational_therapy_no_assessment_reason_type.sql
+:r ./create/speech_and_language_therapy_management.sql
+:r ./create/swallowing_no_assessment_reason_type.sql
+:r ./create/communication_no_assessment_reason_type.sql
+:r ./create/rehab_goals_not_set_reason_type.sql
+:r ./create/physiotherapy_management.sql
+:r ./create/physiotherapy_no_assessment_reason_type.sql
+:r ./create/cognitive_status_no_assessment_type.sql
+:r ./create/baseline_assessment_management.sql
+:r ./create/barthel.sql
+:r ./create/modified_rankin.sql
+:r ./create/thrombolysis.sql
+:r ./create/observation.sql
+:r ./create/observation_type.sql
+:r ./create/treatment.sql
+:r ./create/treatment_type.sql
+:r ./create/evaluation.sql
+:r ./create/staff_role.sql
+
+:r ./create/care_activity_care_activity_properties.sql
+
+:r ./create/audit_record_log.sql
+:r ./create/audit_field_log.sql
+
+
